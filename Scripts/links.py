@@ -11,3 +11,5 @@ links = list(soup.find_all("a"))
 
 for x in range(0, len(links)):
 	print(links[x])
+
+#[i for i in x if i.find('BoxScore')==False]
